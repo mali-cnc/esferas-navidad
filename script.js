@@ -59,7 +59,7 @@ generar_pedido.onclick = function () {
 
   for(let i=0; i<=longitud_pedido-1; i++){
     let nombre = document.getElementById("nombre"+(i+1))
-    pedido_texto=pedido_texto+"*"(i+1)+"*.-"+carrito[i][0]+"-"+nombre.value+","
+    pedido_texto=pedido_texto+"*"+(i+1)+"*.-"+carrito[i][0]+"-"+nombre.value+","
     
   }
 
